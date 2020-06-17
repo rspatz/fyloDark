@@ -1,0 +1,235 @@
+/* Base Styles */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+:root {
+  --color-primary-intro: hsl(217, 28%, 15%);
+  --color-primary-main: hsl(218, 28%, 13%);
+  --color-primary-testimonials: hsl(219, 30%, 18%);
+  --color-primary-footer: hsl(216, 53%, 9%);
+  --color-accent-cyan: hsl(176, 68%, 64%);
+  --color-accent-blue: hsl(198, 60%, 50%);
+  --color-neutral-white: hsl(0, 0%, 100%);
+  --color-light-grey: hsl(0, 2%, 91%);
+}
+
+/* Fonts */
+@font-face {
+  font-family: "Raleway-Regular";
+  /* src: url("../fonts/raleway/Raleway-Regular.ttf"); */
+  format: "true-type";
+}
+
+@font-face {
+  font-family: "Raleway-SemiBold";
+  src: url("../fonts/raleway/Raleway-SemiBold.ttf");
+  format: "true-type";
+}
+
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: url("../fonts/open-sans/OpenSans-Regular.ttf");
+  format: "true-type";
+}
+
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url("../fonts/open-sans/OpenSans-Bold.ttf");
+  format: "true-type";
+}
+
+body {
+  background-color: var(--color-primary-main);
+}
+
+.main-nav {
+  font-family: "Raleway-Regular";
+  font-size: 0.75rem;
+  color: var(--color-neutral-white);
+}
+
+h1 {
+  font-family: "Raleway-SemiBold";
+  color: var(--color-neutral-white);
+  font-size: 1.75rem;
+}
+
+h3 {
+  font-family: "Raleway-SemiBold";
+  color: var(--color-neutral-white);
+  font-size: 1.25rem;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  width: 85%;
+  margin: 2rem 14% 1rem 14%;
+}
+
+p {
+  font-family: "OpenSans-Regular";
+  color: var(--color-neutral-white);
+  font-size: 1.1rem;
+}
+
+/* Header */
+@media only screen and (max-width: 31.25em) {
+  .header-image {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 0 0 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 31.25em) {
+  .header-text {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 31.25em) {
+  .header-text h1 {
+    text-align: center;
+    line-height: 2.5rem;
+    margin: 2rem 6%;
+  }
+}
+
+@media only screen and (max-width: 31.25em) {
+  .header-text p {
+    text-align: center;
+    line-height: 1.75rem;
+    margin: 0 12% 2rem 12%;
+    width: 90%;
+  }
+}
+
+/* Features Section */
+.features {
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .features {
+    display: flex;
+    flex-direction: column;
+    width: 92%;
+    margin: 0 auto;
+  }
+}
+
+.features-set-1 {
+  text-align: center;
+}
+
+.features-set-2 {
+  text-align: center;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .image-wrapper img {
+    width: 20%;
+    padding: 0 auto;
+  }
+}
+
+.point-2,
+.point-4 {
+  margin: 7rem 0 6rem 0;
+}
+
+.point-3 {
+  margin: 2rem 0 6rem 0;
+}
+
+/* Access Section */
+
+@media only screen and (max-width: 31.25em) {
+  .access-info h1 {
+    text-align: center;
+    font-size: 1.35rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 31.25em) {
+  .access p {
+    line-height: 1.65rem;
+    margin: 0 8% 1rem 8%;
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 31.25em) {
+  .access-image {
+    width: 90%;
+    margin: 5rem 10% 0 10%;
+    padding: 0 0 0 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 31.25em) {
+  span a {
+    width: 15%;
+    margin: 2rem 0 2rem 8%;
+    color: var(--color-accent-blue);
+  }
+}
+
+/* Testimonials */
+@media only screen and (max-width: 31.25em) {
+  .testimonials {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 12rem auto;
+  }
+}
+
+.testimonials p {
+  font-size: 0.8rem;
+  line-height: 1.35rem;
+  margin-bottom: 2rem;
+  width: 95%;
+  color: var(--color-light-grey);
+}
+
+.testimonial-1,
+.testimonial-2,
+.testimonial-3 {
+  width: 90%;
+  background-color: var(--color-primary-testimonials);
+  margin: 1rem 2% 1rem 2%;
+  padding: 2rem;
+}
+
+.button {
+  border: none;
+  background-color: var(--color-accent-blue);
+  color: var(--color-neutral-white);
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin: 1.5rem 35rem;
+  padding: 1rem 1.5rem;
+  width: 18%;
+  display: inline-block;
+  border-radius: 10rem;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .button {
+    margin: 1rem 20% 9rem 20%;
+    padding: 1.25rem 2rem;
+    width: 65%;
+    border-radius: 10rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
