@@ -5,3 +5,4 @@ Fylo Dark Theme Landing Page
 2. Uploaded Index and CSS files, mobile version, part 1 6/17/2020
 3. Uploaded Images and Fonts 6/17/2020
 4. Styled Testimonials section, mobile version, part 2 6/17/2020
+5. Correct problems with design on phones 6/18/2020
