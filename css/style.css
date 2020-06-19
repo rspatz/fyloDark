@@ -179,13 +179,13 @@ header {
   margin: 0 0 0 12rem; }
   @media only screen and (max-width: 31.25em) {
     .main-nav li {
-      margin: 2rem 0 2rem 1rem; } }
+      margin: 2rem 0 2rem .75rem; } }
 
 .header-logo {
   margin: 1.25rem 0 0 1.5rem; }
 
 .fylo-logo {
-  width: 60%;
+  width: 55%;
   margin: 1rem 0; }
 
 .button {
