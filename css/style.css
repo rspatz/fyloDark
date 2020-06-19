@@ -284,7 +284,7 @@ footer {
 @media only screen and (max-width: 31.25em) {
   .contact-info {
     font-family: 'OpenSans-Regular';
-    width: 60%;
+    width: 55%;
     line-height: 3rem;
     margin-top: 1rem;
     color: var(--color-light-grey); } }
